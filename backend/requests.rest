@@ -1,0 +1,30 @@
+@BASE_URL = http://localhost:3000
+
+###
+GET {{BASE_URL}}/api/tasks
+Accept: application/json
+
+###
+GET {{BASE_URL}}/api/tasks/1
+Accept: application/json
+
+###
+POST {{BASE_URL}}/api/tasks
+Content-Type: application/json
+
+{
+  "title": "New Task",
+  "description": "This is a new task."
+}
+
+###
+PUT {{BASE_URL}}/api/tasks/1
+Content-Type: application/json
+
+{
+"title": "Updated Task Title",
+"description": "Updated task description."
+}
+
+###
+DELETE {{BASE_URL}}/api/tasks/2
