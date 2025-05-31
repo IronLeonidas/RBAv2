@@ -35,7 +35,7 @@ try {
 
 process.on("SIGINT", () => {
     server.close(() => {
-        console.info("Server closed. F@CK OFF!") //TODO: Maybe change that for someone that doesn"t have humor.
+        console.info("Server closed. ᚺᛖᛁᛚ (Farewell).")
 
         process.exit(0);
     });
