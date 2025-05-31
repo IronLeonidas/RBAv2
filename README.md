@@ -1,4 +1,4 @@
-RESTAURANT BOOKING APP - FULLSTACK SETUP GUIDE
+RESTAURANT BOOKING APP - FULLSTACK SETUP GUIDE (github: https://github.com/IronLeonidas/RBAv2/tree/main)
 
 This application is a fullstack project composed of a React Native frontend (using Expo) and a Node.js backend, connected to a MySQL database. Follow the instructions below to run the project locally on your machine.
 
